@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <div class="main_header">
+            <div class="main">
+                <div class="head_sec_left">
+                    <div class="creative">
+                        <p>CREATIVE CV</p>
+                    </div>
+                </div>
+                <div class="head_sec_right">
+                    <div class="head_item"><a href="#about">ABOUT</a></div>
+                    <div class="head_item"><a href="#skills">CERTIFACTE</a></div>
+                    <div class="head_item"><a href="#edu">EDUCATION</a></div>
+                    <div class="head_item"><a href="#port">PORTFOLIO</a></div>
+                    <div class="head_item"><a href="#contect">CONTACT</a></div>
+                </div>
+            </div>
+            <div class="main_inside">
+                <div class="port_img">
+                    <img src=" {{ url_for('static', filename='images/self.jpg') }}" alt="" width="130">
+                    <p class="name">KAPIL INANIA</p>
+                    <P class="name_web">FRESHER</P>
+                    <div class="main_button">
+                        <div class="hire_btn"><a href="#contect">Hire Me</a></div>
+                        <div class="hire_btn1"><button onClick="window.print()" class="btn_cv"><a href="">Download CV</a>
+                        </button></div>
+                    </div>
+                    <div class="main_icon">
+                        <div class="main_fa">
+                            <a href="https://www.facebook.com/login/"><i class="fa-brands fa-facebook fa-3x"></i></a>
+                        </div>
+                        <div class="main_fa">
+
+                           <a href="https://www.linkedin.com/in/kapil-inania-a4a548160/"> <i class="fa-brands fa-linkedin fa-3x"></i></a>
+
+                        </div>
+                        <div class="main_fa">
+
+                           <a href="https://github.com/kapilinania/kapilinania"> <i class="fa-brands fa-github fa-3x"></i></a>
+
+                        </div>
+                        <div class="main_fa">
+
+                          
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </header>
+    <section id="about">
+        <div class="section_first">
+            
+            <div class="section_main">
+                <div class="aboutus">About Us</div>
+                <div class="first_section">
+                    <div class="about">
+                        <div class="about_inner">
+                            <p class="about_con">About</p>
+                            <p class="about_con1">Hello! I am Kapil Inania. I am from Rajasthan at Jodhpur</p>
+                            <p class="about_con1">Currently I am doing AdIT IBM Course From NSTI Jodhpur. That time i am know about HTML HTML5 CSS CSS3 Linux Basic Command and Shell Scripting and Networing</p>
+                        </div>
+                    </div>
+                    <div class="basic">
+                        <div class="basic_right">
+                            <p class="about_con">Basic Information</p>
+                            <div class="basic_inside">
+                                <div class="age">Age :</div>
+                                <div class="data">24</div>
+                            </div>
+                            <div class="basic_inside">
+                                <div class="age">Email :</div>
+                                <div class="data">Inaniyakapil2000@gmail.com</div>
+                            </div>
+                            <div class="basic_inside">
+                                <div class="age">Phone :</div>
+                                <div class="data">+919828522814</div>
+                            </div>
+                            <div class="basic_inside">
+                                <div class="age">Address :</div>
+                                <div class="data">Paota C Road Jodhpur</div>
+                            </div>
+                            <div class="basic_inside">
+                                <div class="age">Language :</div>
+                                <div class="data">Hindi, English </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="pro">
+            <div class="pro_in">
+                <p>Professional Skills</p>
+                <div class="progress_area">
+                    <div class="progress_area_left">
+                        <div class="progrss_con">
+                            <div class="progrss_data">
+                                <div class="progrss_con_html">
+                                    HTML
+                                </div>
+                                <div class="progrss_con_percent">
+                                    80%
+                                </div>
+                            </div>
+                            <div class="progress_bar">
+                                <div class="beer"></div>
+                            </div>
+                        </div>
+                        <div class="progrss_con">
+                            <div class="progrss_data">
+                                <div class="progrss_con_html">
+                                    CSS3
+                                </div>
+                                <div class="progrss_con_percent">
+                                    60%
+                                </div>
+                            </div>
+                            <div class="progress_bar">
+                                <div class="beer1"></div>
+                            </div>
+                        </div>
+                        <div class="progrss_con">
+                            <div class="progrss_data">
+                                <div class="progrss_con_html">
+                                    HTML5
+                                </div>
+                                <div class="progrss_con_percent">
+                                    70%
+                                </div>
+                            </div>
+                            <div class="progress_bar">
+                                <div class="beer2"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress_area_left">
+                        <div class="progrss_con">
+                            <div class="progrss_data">
+                                <div class="progrss_con_html">
+                                    CSS
+                                </div>
+                                <div class="progrss_con_percent">
+                                    70%
+                                </div>
+                            </div>
+                            <div class="progress_bar">
+                                <div class="beer2"></div>
+                            </div>
+                        </div>
+                        <div class="progrss_con">
+                            <div class="progrss_data">
+                                <div class="progrss_con_html">
+                                    LINUX
+                                </div>
+                                <div class="progrss_con_percent">
+                                    60%
+                                </div>
+                            </div>
+                            <div class="progress_bar">
+                                <div class="beer1"></div>
+                            </div>
+                        </div>
+                        <div class="progrss_con">
+                            <div class="progrss_data">
+                                <div class="progrss_con_html">
+                                    NETWORKING
+                                </div>
+                                <div class="progrss_con_percent">
+                                    70%
+                                </div>
+                            </div>
+                            <div class="progress_bar">
+                                <div class="beer3"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="port">
+        <div class="portfolio">
+            <div class="main_portfolio">
+                <div class="main_portfolio_con"><p>Portfolio</p></div>
+                <div class="portfolio_icon">
+                    <div class="portfolio_icon1">
+                        <i class="fa-solid fa-laptop fa-2x"></i>
+                    </div>
+                    <div class="portfolio_icon1">
+                        <i class="fa-solid fa-camera fa-2x"></i>
+                    </div>
+                    <div class="portfolio_icon1">
+                        <i class="fa-solid fa-camera fa-2x"></i>
+                    </div>
+                </div>
+                <div class="portfolio_images">
+                    <div class="portfolio_images1">
+                        <div class="portfolio_images10">
+                            <a href="https://kapilinania.github.io/tour.github.io/"><img src=" {{ url_for('static', filename='images/1.png') }}" alt="" width="100%"></a>
+                        </div>
+                        <div class="portfolio_images11">
+                            <a href="https://kapilinania.github.io/onepagewebsite.github.io/"><img src="{{ url_for('static', filename='images/2.png') }}" alt="" width="100%"></a>
+                        </div>
+                    </div>
+                    <div class="portfolio_images2">
+                        <div class="portfolio_images20">
+                           <a href="https://kapilinania.github.io/admissionfrom.github.io/"> <img src="{{ url_for('static', filename='images/3.png') }}" alt="" width="100%"></a>
+                        </div>
+                        <div class="portfolio_images21">
+                            <a href="https://kapilinania.github.io/iipproject.github.io/"><img src="{{ url_for('static', filename='images/4.png') }}" alt="" width="100%"></a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="skills">
+        <div class="experience">
+            <div class="main_experience">
+                <div class="experience_con">
+                    <p>Certificate</p>
+                </div>
+                <div class="experience_con_box">
+                    <div class="experience_con_box1">
+                        <div class="experience_con_box10">
+                            <div class="experience_con_box10A">
+                                <p> Match 2019</p>
+                            </div>
+                            <div class="experience_con_box10B">
+                                <p>O Level</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="experience_con_box2">
+                        <div class="experience_con_box20">
+                            <div class="experience_con_box20A">
+                                <div class="experience_con_box20A1"><p>O Level</p></div>
+                                <div class="experience_con_box20A2">
+                                    <p> This is a Basic Computer Course form NIELIT that time i am learn basic Computer Hardware software and Networking and  C Programming</p>
+                                </div>
+                                <div class="certi_kapil">
+                                    <a href="https://blog123456010.000webhostapp.com/wp-content/uploads/2023/01/olevel.png">Certificate Link</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="experience_con_box">
+                    <div class="experience_con_box1">
+                        <div class="experience_con_box10">
+                            <div class="experience_con_box10A">
+                                <p>Jan 2020</p>
+                            </div>
+                            <div class="experience_con_box10B">
+                                <p>Photoshop</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="experience_con_box2">
+                        <div class="experience_con_box20">
+                            <div class="experience_con_box20A">
+                                <div class="experience_con_box20A1"><p>Photoshop</p></div>
+                                <div class="experience_con_box20A2">
+                                    <p> I am done my photoshop Course form Shube Foundation that time i am learn hend tools lasso tool and some more tools. that time i am create some small project and i am learn how to convert PSD to Html</p>
+                                </div>
+                                <div class="certi_kapil">
+                                    <a href="https://blog123456010.000webhostapp.com/wp-content/uploads/2023/01/photoshop.png">Certificate Link</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="experience_con_box">
+                    <div class="experience_con_box1">
+                        <div class="experience_con_box10">
+                            <div class="experience_con_box10A">
+                                <p>Dec 2020</p>
+                            </div>  
+                            <div class="experience_con_box10B">
+                                <p>SEO</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="experience_con_box2">
+                        <div class="experience_con_box20">
+                            <div class="experience_con_box20A">
+                                <div class="experience_con_box20A1"><p> Search Engine Optimization</p></div>
+                                <div class="experience_con_box20A2">
+                                    <p> That time i am learn about introduction about Search Engine Optimization and i am doing a Wordpress Project related to seo, that time i am learn meta tag and some more seo plugin or tools. </p>
+                                </div>
+                                <div class="certi_kapil">
+                                    <a href="https://blog123456010.000webhostapp.com/wp-content/uploads/2023/01/SEO.png">Certificate Link</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="experience_con_box">
+                    <div class="experience_con_box1">
+                        <div class="experience_con_box10">
+                            <div class="experience_con_box10A">
+                                <p> DEC 2022</p>
+                            </div>  
+                            <div class="experience_con_box10B">
+                                <p>Introduction to Cybersecurity</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="experience_con_box2">
+                        <div class="experience_con_box20">
+                            <div class="experience_con_box20A">
+                                <div class="experience_con_box20A1"><p>Introduction to Cybersecurity</p></div>
+                                <div class="experience_con_box20A2">
+                                    <p> That time i am learn about Introduction to Cybersecurity and we are about knowledge of cybersecurity, including the global implications of cyber threats on industries, and why cybersecurity is a growing profession</p>
+                                </div>
+                                <div class="certi_kapil">
+                                    <a href="https://www.credly.com/badges/933c5e40-4289-4849-8fcc-f9a09d4cf1d7/linked_in_profile">Certificate Link</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="experience_con_box">
+                    <div class="experience_con_box1">
+                        <div class="experience_con_box10">
+                            <div class="experience_con_box10A">
+                                <p> JAN 2022</p>
+                            </div>  
+                            <div class="experience_con_box10B">
+                                <p> Dark Web, Anonymity</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="experience_con_box2">
+                        <div class="experience_con_box20">
+                            <div class="experience_con_box20A">
+                                <div class="experience_con_box20A1"><p>Code Red</p></div>
+                                <div class="experience_con_box20A2">
+                                    <p> i am learn about Dark web Anonymity, Cryptocurrency and how we are search secure way in browser. that i am also learn about Cryptocurrency and block chain . my certificate Number is 195127 </p>
+                                </div>
+                                <div class="certi_kapil">
+                                    <a href="https://codered.eccouncil.org/certificate/abbb6e25-1e5f-4b8d-aa62-ebdbc848fa4a?logged=true">Certificate Link</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="experience_con_box_ibm">
+                    <div class="experience_con_box1">
+                        <div class="experience_con_box10">
+                            <div class="experience_con_box10A">
+                                <p> JAN 2022</p>
+                            </div>  
+                            <div class="experience_con_box10B">
+                                <p>IBM Skill Build</p>
+                            </div>
+                        </div>
+                    </div>
+                   
+                    <div class="experience_con_box2">
+                        <div class="experience_con_box20">
+                            <div class="experience_con_box20A">
+                                <div class="experience_con_box20A1"><p></p></div>
+                                <div class="experience_con_box20A2">
+                                    
+                                    
+                                     <div class="ibm">
+                                        <div class="ibm1">
+                                            <p> What is open source?  <a href="https://blog123456010.000webhostapp.com/wp-content/uploads/2023/01/1..png"> Certificate Link</a> </p>
+                                        </div>
+                                        <div class="ibm2">
+                                            <p> Red Hat Enterprise Linux Technical Overview  <a href="https://blog123456010.000webhostapp.com/wp-content/uploads/2023/01/2.png"> Certificate Link</a> </p>
+                                        </div>
+                                     </div>
+                                     <div class="ibm">
+                                        <div class="ibm1">
+                                            <p> What Is IoT?   <a href="https://blog123456010.000webhostapp.com/wp-content/uploads/2023/01/3.png"> Certificate Link</a> </p>
+                                        </div>
+                                        <div class="ibm2">
+                                            <p> What does it mean to be digitally literate? <a href="https://blog123456010.000webhostapp.com/wp-content/uploads/2023/01/4.png"> Certificate Link</a> </p>
+                                        </div>
+                                     </div>
+                                     <div class="ibm">
+                                        <div class="ibm1">
+                                            <p> Improving Your Computer Literacy   <a href="https://blog123456010.000webhostapp.com/wp-content/uploads/2023/01/5.png"> Certificate Link</a> </p>
+                                        </div>
+                                        <div class="ibm2">
+                                            <p> Information Literacy Skills  <a href="https://blog123456010.000webhostapp.com/wp-content/uploads/2023/01/6.png"> Certificate Link</a> </p>
+                                        </div>
+                                     </div>
+                                     <div class="ibm">
+                                        <div class="ibm1">
+                                            <p> Being a Good Digital Citizen   <a href="https://blog123456010.000webhostapp.com/wp-content/uploads/2023/01/7.png"> Certificate Link</a> </p>
+                                        </div>
+                                        <div class="ibm2">
+                                            <p> How to Create Strong Passwords  <a href="https://blog123456010.000webhostapp.com/wp-content/uploads/2023/01/8.png"> Certificate Link</a> </p>
+                                        </div>
+                                     </div>
+                                     <div class="ibm">
+                                        <div class="ibm1">
+                                            <p> The Internet: How Search Works    <a href="https://blog123456010.000webhostapp.com/wp-content/uploads/2023/01/9.png"> Certificate Link</a> </p>
+                                        </div>
+                                        <div class="ibm2">
+                                            <p> 6 Ways to Find What You Want on the Internet  <a href="https://blog123456010.000webhostapp.com/wp-content/uploads/2023/01/10.png"> Certificate Link</a> </p>
+                                        </div>
+                                     </div>
+                                     <div class="ibm">
+                                        <div class="ibm1">
+                                            <p> Microsoft 365 Training (Word, PowerPoint, Excel, etc.)   <a href="https://blog123456010.000webhostapp.com/wp-content/uploads/2023/01/11.png"> Certificate Link</a> </p>
+                                        </div>
+                                        <div class="ibm2">
+                                            <p> 10 Tips That Can Make Anyone A Microsoft Word Expert  <a href="https://blog123456010.000webhostapp.com/wp-content/uploads/2023/01/12.png"> Certificate Link</a> </p>
+                                        </div>
+                                     </div>
+                                     <div class="ibm">
+                                        <div class="ibm1">
+                                            <p> Master PowerPoint   <a href="https://blog123456010.000webhostapp.com/wp-content/uploads/2023/01/13.png"> Certificate Link</a> </p>
+                                        </div>
+                                        <div class="ibm2">
+                                            <p> G Suite Training (gmail, Chrome, Google Classroom, Hangouts, etc.)<a href="https://blog123456010.000webhostapp.com/wp-content/uploads/2023/01/14.png"> Certificate Link</a> </p>
+                                        </div>
+                                     </div>
+                                     
+                                </div>
+                               
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="edu">
+        <div class="experience">
+            <div class="main_experience">
+                <div class="experience_con">
+                    <p>Education</p>
+                </div>
+                <div class="experience_con_box">
+                    <div class="experience_con_box1">
+                        <div class="experience_con_box10">
+                            <div class="experience_con_box10A">
+                                <p>July 2013 - July 2014</p>
+                            </div>
+                            <div class="experience_con_box10B">
+                                <p>SECONDARY</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="experience_con_box2">
+                        <div class="experience_con_box20">
+                            <div class="experience_con_box20A">
+                                <div class="experience_con_box20A1"><p>SECONDARY</p></div>
+                                <div class="experience_con_box20A2">
+                                    <p>I am done my Secondary Education in 2014 form Board of Secondary Education, Rajasthan. In my Secondary Education i got 63%.. that time i am learn all subject like Hindi Maths Science Social Science Sanskart.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="experience_con_box">
+                    <div class="experience_con_box1">
+                        <div class="experience_con_box10">
+                            <div class="experience_con_box10A">
+                                <p>June 2016 - July 2017</p>
+                            </div>
+                            <div class="experience_con_box10B">
+                                <p> Sr Secondary</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="experience_con_box2">
+                        <div class="experience_con_box20">
+                            <div class="experience_con_box20A">
+                                <div class="experience_con_box20A1"><p>Sr Secondary</p></div>
+                                <div class="experience_con_box20A2">
+                                    <p> I am done my Sr Secondary Education in 2017 from Board of Secondary Education, Rajasthan. In my Sr Secondary i got 82% that time i am learn Physics Chemistry and Mathematics. </p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="experience_con_box">
+                    <div class="experience_con_box1">
+                        <div class="experience_con_box10">
+                            <div class="experience_con_box10A">
+                                <p>July 2018 -  July 2020</p>
+                            </div>
+                            <div class="experience_con_box10B">
+                                <p>Graduation</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="experience_con_box2">
+                        <div class="experience_con_box20">
+                            <div class="experience_con_box20A">
+                                <div class="experience_con_box20A1"><p>Graduation</p></div>
+                                <div class="experience_con_box20A2">
+                                    <p>I am done my Graduation from MDSU Ajmer and i got 74% and that time learn advance Mathematics Physics and Chemistry. </p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- <section>
+        <div class="experience">
+            <div class="main_experience">
+                <div class="experience_con">
+                    <p>References</p>
+                </div>
+                <div class="reference">
+                    <div class="References1">
+                        <div class="References1_under">
+                            <div class="References1_under_con" >
+                                <div class="References1_under_con_img">
+                                    <img src="images/reference-image-1.jpg" alt="" width="100%">
+                                </div>
+                                <div class="References1_under_con_aiyana"><p>Aiyana</p></div>
+                                <div class="References1_under_con_ceo"><p>CEO / WEBM</p></div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="References2">
+                        <div class="References2A">
+                            <div class="References2A0">
+                                <div class="References2A0_con">
+                                    <p>
+                                        Habitasse venenatis commodo tempor eleifend arcu sociis sollicitudin ante pulvinar ad, est porta cras erat ullamcorper volutpat metus duis platea convallis, tortor primis ac quisque etiam luctus nisl nullam fames. Ligula purus suscipit tempus nascetur curabitur donec nam ullamcorper, laoreet nullam mauris dui aptent facilisis neque elementum ac, risus semper felis parturient fringilla rhoncus eleifend</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+            </div>
+        </div>
+    </section> -->
+    <section id="contect">
+        <div class="map">
+            <div class="map_inner">
+                <div class="map_form">
+                    <div class="map_innerA">
+                        <div class="contact"><p>Contact Me</p></div>
+                        <div class="map_main">
+                            <div class="left_map">
+                                <div class="left_map_con">Contact Me
+                                    Feel free to contact me</div>
+                                   <div class="map_form">
+                                    <form action="">
+                                        <div class="form_part">
+                                            <span><i class="fa-light fa-user fa-2x"></i></span>
+                                            <input type="text" name="" id="" class="form_input" placeholder="Name">
+                                        </div>
+                                        <div class="form_part">
+                                            <span><i class="fa-light fa-user fa-2x"></i></span>
+                                            <input type="text" name="" id="" class="form_input" placeholder="Subject">
+                                        </div>
+                                        <div class="form_part">
+                                            <span><i class="fa-light fa-user fa-2x"></i></span>
+                                            <input type="text" name="" id="" class="form_input" placeholder="Email">
+                                        </div>
+                                        <div class="form_part">
+                                            
+                                            <input type="text" name="" id="" class="form_input1" placeholder="your Message">
+                                        </div>
+                                        <div class="form_part1">
+                                            
+                                            <button type="button" class="form_btn">Send</button>
+                                        </div>
+                                    </form>
+                                   </div> 
+                            </div>
+                            <div class="right_map">
+                                <div class="rightmap_con">
+                                    <div class="address_con"><p>Address :</p></div>
+                                    <div>Paota C Road Jodhpur</div>
+                                </div>
+                                <div class="rightmap_con">
+                                    <div class="address_con"><p>Phone :</p></div>
+                                    <div>+919828522814  </div>
+                                </div>
+                                <div class="rightmap_con">
+                                    <div class="address_con"><p>Email :</p></div>
+                                    <div>Inaniyakapil2000@gmail.com</div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer">
+            <div class="footer_main">
+                <div class="footer_icon">
+                    <div class="footer_iconA">
+                       <a href="https://www.facebook.com/login/"> <i class="fa-brands fa-facebook-f  fa-2x"></i></a>
+                    </div>
+                    <div class="footer_iconA">
+                       <a href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZW4ifQ%3D%3D%22%7D"> <i class="fa-brands fa-twitter  fa-2x"></i></a>
+                    </div>
+                    <div class="footer_iconA">
+                        <a href="https://accounts.google.com/signin/v2/challenge/pwd?continue=https%3A%2F%2Fmyaccount.google.com%2Fdeleteaccount&service=accountsettings&osid=1&rart=ANgoxcf0AS9WqNFURMaXI9e1mncvtU9fdn9rcG8PcD8MMCj8S5Pt5tqZU3ympKQPmTZZPeWX4Lh64otrG70iiw5W6aHblvEmlw&TL=AC7eWV33G0lLTCn-2Cquxzf0llKox8M-Bzl78S9GmlQ48hwwHADoRht0xDuJqT1C&flowName=GlifWebSignIn&cid=1&flowEntry=ServiceLogin"><i class="fa-brands fa-google-plus-g  fa-2x"></i></a>
+                    </div>
+                    <div class="footer_iconA">
+                       
+                    </div>
+                </div>
+                <div class="footer_con">
+                    <p>KAPIL INANIA</p>
+                </div>
+                <div class="footer_con1">
+                    <p>©  All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
